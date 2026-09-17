@@ -1,0 +1,249 @@
+{
+ "timeseries": {
+  "result": [
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualCashAndCashEquivalents"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualCashAndCashEquivalents": [
+     {
+      "dataId": 23030,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 23646000000,
+       "fmt": "23.65B"
+      }
+     },
+     {
+      "dataId": 23030,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 29965000000,
+       "fmt": "29.96B"
+      }
+     },
+     {
+      "dataId": 23030,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 29943000000,
+       "fmt": "29.94B"
+      }
+     },
+     {
+      "dataId": 23030,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 35934000000,
+       "fmt": "35.93B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualStockholdersEquity"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualStockholdersEquity": [
+     {
+      "dataId": 23215,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 50672000000,
+       "fmt": "50.67B"
+      }
+     },
+     {
+      "dataId": 23215,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 62146000000,
+       "fmt": "62.15B"
+      }
+     },
+     {
+      "dataId": 23215,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 56950000000,
+       "fmt": "56.95B"
+      }
+     },
+     {
+      "dataId": 23215,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 73733000000,
+       "fmt": "73.73B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualTotalAssets"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualTotalAssets": [
+     {
+      "dataId": 23220,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 352755000000,
+       "fmt": "352.75B"
+      }
+     },
+     {
+      "dataId": 23220,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 352583000000,
+       "fmt": "352.58B"
+      }
+     },
+     {
+      "dataId": 23220,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 364980000000,
+       "fmt": "364.98B"
+      }
+     },
+     {
+      "dataId": 23220,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 359241000000,
+       "fmt": "359.24B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualGoodwill"
+     ]
+    }
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualTotalDebt"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualTotalDebt": [
+     {
+      "dataId": 23386,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 132480000000,
+       "fmt": "132.48B"
+      }
+     },
+     {
+      "dataId": 23386,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 111088000000,
+       "fmt": "111.09B"
+      }
+     },
+     {
+      "dataId": 23386,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 106629000000,
+       "fmt": "106.63B"
+      }
+     },
+     {
+      "dataId": 23386,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 98657000000,
+       "fmt": "98.66B"
+      }
+     }
+    ]
+   }
+  ],
+  "error": null
+ }
+}

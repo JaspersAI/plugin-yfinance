@@ -1,0 +1,214 @@
+{
+ "timeseries": {
+  "result": [
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "quarterlyDilutedEPS"
+     ]
+    },
+    "timestamp": [
+     1751241600,
+     1759190400,
+     1767139200,
+     1774915200,
+     1782777600
+    ],
+    "quarterlyDilutedEPS": [
+     {
+      "dataId": 29009,
+      "asOfDate": "2025-06-30",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 1.57,
+       "fmt": "1.57"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2025-09-30",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 1.85,
+       "fmt": "1.85"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2025-12-31",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 2.84,
+       "fmt": "2.84"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2026-03-31",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 2.01,
+       "fmt": "2.01"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2026-06-30",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 2.02,
+       "fmt": "2.02"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "quarterlyTotalRevenue"
+     ]
+    },
+    "timestamp": [
+     1751241600,
+     1759190400,
+     1767139200,
+     1774915200,
+     1782777600
+    ],
+    "quarterlyTotalRevenue": [
+     {
+      "dataId": 20100,
+      "asOfDate": "2025-06-30",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 94036000000,
+       "fmt": "94.04B"
+      }
+     },
+     {
+      "dataId": 20100,
+      "asOfDate": "2025-09-30",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 102466000000,
+       "fmt": "102.47B"
+      }
+     },
+     {
+      "dataId": 20100,
+      "asOfDate": "2025-12-31",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 143756000000,
+       "fmt": "143.76B"
+      }
+     },
+     {
+      "dataId": 20100,
+      "asOfDate": "2026-03-31",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 111184000000,
+       "fmt": "111.18B"
+      }
+     },
+     {
+      "dataId": 20100,
+      "asOfDate": "2026-06-30",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 109417000000,
+       "fmt": "109.42B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "quarterlyNetIncome"
+     ]
+    },
+    "timestamp": [
+     1751241600,
+     1759190400,
+     1767139200,
+     1774915200,
+     1782777600
+    ],
+    "quarterlyNetIncome": [
+     {
+      "dataId": 20091,
+      "asOfDate": "2025-06-30",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 23434000000,
+       "fmt": "23.43B"
+      }
+     },
+     {
+      "dataId": 20091,
+      "asOfDate": "2025-09-30",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 27466000000,
+       "fmt": "27.47B"
+      }
+     },
+     {
+      "dataId": 20091,
+      "asOfDate": "2025-12-31",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 42097000000,
+       "fmt": "42.10B"
+      }
+     },
+     {
+      "dataId": 20091,
+      "asOfDate": "2026-03-31",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 29578000000,
+       "fmt": "29.58B"
+      }
+     },
+     {
+      "dataId": 20091,
+      "asOfDate": "2026-06-30",
+      "periodType": "3M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 29789000000,
+       "fmt": "29.79B"
+      }
+     }
+    ]
+   }
+  ],
+  "error": null
+ }
+}

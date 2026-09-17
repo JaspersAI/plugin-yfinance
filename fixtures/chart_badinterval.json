@@ -1,0 +1,9 @@
+{
+ "chart": {
+  "result": null,
+  "error": {
+   "code": "Unprocessable Entity",
+   "description": "1m data not available for startTime=1758073294 and endTime=1789609294. Only 8 days worth of 1m granularity data are allowed to be fetched per request."
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "yfinance",
+  "version": "1.0.0",
+  "description": "Yahoo Finance for Jaspers Terminal: quotes, price history, fundamentals, analysts, holders, options, news, and market movers, with no key.",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaspersAI/plugin-yfinance.git"
+  },
+  "jaspers": {
+    "sdk": "0.2.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test '*.test.ts' 'server/*.test.ts'",
+    "smoke": "node scripts/smoke.ts",
+    "package": "node scripts/package.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@jaspers-ai/sdk": "^0.2.0",
+    "@types/node": "^24.13.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

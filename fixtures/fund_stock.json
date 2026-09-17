@@ -1,0 +1,52 @@
+{
+ "quoteSummary": {
+  "result": [
+   {
+    "price": {
+     "maxAge": 1,
+     "preMarketChangePercent": 0.0032293336,
+     "preMarketChange": 1.0700073,
+     "preMarketTime": 1789565399,
+     "preMarketPrice": 332.41,
+     "preMarketSource": "FREE_REALTIME",
+     "postMarketChangePercent": 0.0030684667,
+     "postMarketChange": 1.019989,
+     "postMarketTime": 1789603190,
+     "postMarketPrice": 333.43,
+     "postMarketSource": "FREE_REALTIME",
+     "regularMarketChangePercent": 0.0032293298,
+     "regularMarketChange": 1.07001,
+     "regularMarketTime": 1789588801,
+     "priceHint": 2,
+     "regularMarketPrice": 332.41,
+     "regularMarketDayHigh": 335.48,
+     "regularMarketDayLow": 330.7,
+     "regularMarketVolume": 35923957,
+     "regularMarketPreviousClose": 331.34,
+     "regularMarketSource": "FREE_REALTIME",
+     "regularMarketOpen": 332.42,
+     "fulldayChangePercent": 0.0032293298,
+     "fulldayChange": 1.07001,
+     "fulldayPrice": 333.43,
+     "exchange": "NMS",
+     "exchangeName": "NasdaqGS",
+     "exchangeDataDelayedBy": 0,
+     "marketState": "POSTPOST",
+     "quoteType": "EQUITY",
+     "symbol": "AAPL",
+     "underlyingSymbol": null,
+     "shortName": "Apple Inc.",
+     "longName": "Apple Inc.",
+     "currency": "USD",
+     "quoteSourceName": "Nasdaq Real Time Price",
+     "currencySymbol": "$",
+     "fromCurrency": null,
+     "toCurrency": null,
+     "lastMarket": null,
+     "marketCap": 4851251544064
+    }
+   }
+  ],
+  "error": null
+ }
+}

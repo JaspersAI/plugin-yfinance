@@ -1,0 +1,17 @@
+{
+ "timeseries": {
+  "result": [
+   {
+    "meta": {
+     "symbol": [
+      "NOPE123X"
+     ],
+     "type": [
+      "annualTotalRevenue"
+     ]
+    }
+   }
+  ],
+  "error": null
+ }
+}

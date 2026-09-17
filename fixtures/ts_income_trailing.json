@@ -1,0 +1,235 @@
+{
+ "timeseries": {
+  "result": [
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "trailingTotalRevenue"
+     ]
+    },
+    "timestamp": [
+     1751241600,
+     1782777600
+    ],
+    "trailingTotalRevenue": [
+     {
+      "dataId": 20100,
+      "asOfDate": "2025-06-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 408625000000,
+       "fmt": "408.62B"
+      }
+     },
+     {
+      "dataId": 20100,
+      "asOfDate": "2026-06-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 466823000000,
+       "fmt": "466.82B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "trailingNetIncome"
+     ]
+    },
+    "timestamp": [
+     1751241600,
+     1782777600
+    ],
+    "trailingNetIncome": [
+     {
+      "dataId": 20091,
+      "asOfDate": "2025-06-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 99280000000,
+       "fmt": "99.28B"
+      }
+     },
+     {
+      "dataId": 20091,
+      "asOfDate": "2026-06-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 128930000000,
+       "fmt": "128.93B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "trailingDilutedEPS"
+     ]
+    },
+    "timestamp": [
+     1696032000,
+     1703980800,
+     1711843200,
+     1719705600,
+     1727654400,
+     1735603200,
+     1743379200,
+     1751241600,
+     1759190400,
+     1767139200,
+     1774915200,
+     1782777600
+    ],
+    "trailingDilutedEPS": [
+     {
+      "dataId": 29009,
+      "asOfDate": "2023-09-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.13,
+       "fmt": "6.13"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2023-12-31",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.43,
+       "fmt": "6.43"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2024-03-31",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.43,
+       "fmt": "6.43"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2024-06-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.57,
+       "fmt": "6.57"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2024-09-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.08,
+       "fmt": "6.08"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2024-12-31",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.3,
+       "fmt": "6.30"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2025-03-31",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.42,
+       "fmt": "6.42"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2025-06-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.59,
+       "fmt": "6.59"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2025-09-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 7.46,
+       "fmt": "7.46"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2025-12-31",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 7.9,
+       "fmt": "7.90"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2026-03-31",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 8.26,
+       "fmt": "8.26"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2026-06-30",
+      "periodType": "TTM",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 8.72,
+       "fmt": "8.72"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "trailingInterestExpense"
+     ]
+    }
+   }
+  ],
+  "error": null
+ }
+}

@@ -1,0 +1,640 @@
+{
+ "timeseries": {
+  "result": [
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualTotalRevenue"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualTotalRevenue": [
+     {
+      "dataId": 20100,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 394328000000,
+       "fmt": "394.33B"
+      }
+     },
+     {
+      "dataId": 20100,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 383285000000,
+       "fmt": "383.29B"
+      }
+     },
+     {
+      "dataId": 20100,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 391035000000,
+       "fmt": "391.04B"
+      }
+     },
+     {
+      "dataId": 20100,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 416161000000,
+       "fmt": "416.16B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualTaxRateForCalcs"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualTaxRateForCalcs": [
+     {
+      "dataId": 20418,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 0.162,
+       "fmt": "0.16"
+      }
+     },
+     {
+      "dataId": 20418,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 0.147,
+       "fmt": "0.15"
+      }
+     },
+     {
+      "dataId": 20418,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 0.241,
+       "fmt": "0.24"
+      }
+     },
+     {
+      "dataId": 20418,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 0.156,
+       "fmt": "0.16"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualInterestExpense"
+     ]
+    },
+    "timestamp": [
+     1632960000,
+     1664496000,
+     1696032000
+    ],
+    "annualInterestExpense": [
+     {
+      "dataId": 20057,
+      "asOfDate": "2021-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 2645000000,
+       "fmt": "2.65B"
+      }
+     },
+     {
+      "dataId": 20057,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 2931000000,
+       "fmt": "2.93B"
+      }
+     },
+     {
+      "dataId": 20057,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 3933000000,
+       "fmt": "3.93B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualDilutedAverageShares"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualDilutedAverageShares": [
+     {
+      "dataId": 29011,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 16325819000,
+       "fmt": "16.33B"
+      }
+     },
+     {
+      "dataId": 29011,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 15812547000,
+       "fmt": "15.81B"
+      }
+     },
+     {
+      "dataId": 29011,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 15408095000,
+       "fmt": "15.41B"
+      }
+     },
+     {
+      "dataId": 29011,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 15004697000,
+       "fmt": "15.00B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualNetIncome"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualNetIncome": [
+     {
+      "dataId": 20091,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 99803000000,
+       "fmt": "99.80B"
+      }
+     },
+     {
+      "dataId": 20091,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 96995000000,
+       "fmt": "97.00B"
+      }
+     },
+     {
+      "dataId": 20091,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 93736000000,
+       "fmt": "93.74B"
+      }
+     },
+     {
+      "dataId": 20091,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 112010000000,
+       "fmt": "112.01B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualGrossProfit"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualGrossProfit": [
+     {
+      "dataId": 20046,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 170782000000,
+       "fmt": "170.78B"
+      }
+     },
+     {
+      "dataId": 20046,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 169148000000,
+       "fmt": "169.15B"
+      }
+     },
+     {
+      "dataId": 20046,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 180683000000,
+       "fmt": "180.68B"
+      }
+     },
+     {
+      "dataId": 20046,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 195201000000,
+       "fmt": "195.20B"
+      }
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualTotalUnusualItems"
+     ]
+    }
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualOperatingIncome"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualOperatingIncome": [
+     {
+      "dataId": 20109,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 119437000000,
+       "fmt": "119.44B"
+      },
+      "geographicSegmentData": [
+       {
+        "dataValue": 62683000000,
+        "segmentType": "Geographic",
+        "segmentName": "Americas, excluding U.S",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 35233000000,
+        "segmentType": "Geographic",
+        "segmentName": "Europe",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 31153000000,
+        "segmentType": "Geographic",
+        "segmentName": "Greater China",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 12257000000,
+        "segmentType": "Geographic",
+        "segmentName": "Japan",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": -7207000000,
+        "segmentType": "Geographic",
+        "segmentName": "Other corporate expenses, net",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": -26251000000,
+        "segmentType": "Geographic",
+        "segmentName": "Research and development expense",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 11569000000,
+        "segmentType": "Geographic",
+        "segmentName": "Rest of Asia Pacific",
+        "isPrimarySegment": 0
+       }
+      ]
+     },
+     {
+      "dataId": 20109,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 114301000000,
+       "fmt": "114.30B"
+      },
+      "geographicSegmentData": [
+       {
+        "dataValue": 60508000000,
+        "segmentType": "Geographic",
+        "segmentName": "Americas, excluding U.S",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 36098000000,
+        "segmentType": "Geographic",
+        "segmentName": "Europe",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 30328000000,
+        "segmentType": "Geographic",
+        "segmentName": "Greater China",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 11888000000,
+        "segmentType": "Geographic",
+        "segmentName": "Japan",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": -6672000000,
+        "segmentType": "Geographic",
+        "segmentName": "Other corporate expenses, net",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": -29915000000,
+        "segmentType": "Geographic",
+        "segmentName": "Research and development expense",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 12066000000,
+        "segmentType": "Geographic",
+        "segmentName": "Rest of Asia Pacific",
+        "isPrimarySegment": 0
+       }
+      ]
+     },
+     {
+      "dataId": 20109,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 123216000000,
+       "fmt": "123.22B"
+      },
+      "geographicSegmentData": [
+       {
+        "dataValue": 67656000000,
+        "segmentType": "Geographic",
+        "segmentName": "Americas",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 41790000000,
+        "segmentType": "Geographic",
+        "segmentName": "Europe",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 27082000000,
+        "segmentType": "Geographic",
+        "segmentName": "Greater China",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 12454000000,
+        "segmentType": "Geographic",
+        "segmentName": "Japan",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": -7458000000,
+        "segmentType": "Geographic",
+        "segmentName": "Other corporate expenses, net",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": -31370000000,
+        "segmentType": "Geographic",
+        "segmentName": "Research and development expense",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 13062000000,
+        "segmentType": "Geographic",
+        "segmentName": "Rest of Asia Pacific",
+        "isPrimarySegment": 0
+       }
+      ]
+     },
+     {
+      "dataId": 20109,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 133050000000,
+       "fmt": "133.05B"
+      },
+      "geographicSegmentData": [
+       {
+        "dataValue": 72480000000,
+        "segmentType": "Geographic",
+        "segmentName": "Americas",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": -42627000000,
+        "segmentType": "Geographic",
+        "segmentName": "Corporate",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 47739000000,
+        "segmentType": "Geographic",
+        "segmentName": "Europe",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 26917000000,
+        "segmentType": "Geographic",
+        "segmentName": "Greater China",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 13955000000,
+        "segmentType": "Geographic",
+        "segmentName": "Japan",
+        "isPrimarySegment": 0
+       },
+       {
+        "dataValue": 14586000000,
+        "segmentType": "Geographic",
+        "segmentName": "Rest of Asia Pacific",
+        "isPrimarySegment": 0
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "meta": {
+     "symbol": [
+      "AAPL"
+     ],
+     "type": [
+      "annualDilutedEPS"
+     ]
+    },
+    "timestamp": [
+     1664496000,
+     1696032000,
+     1727654400,
+     1759190400
+    ],
+    "annualDilutedEPS": [
+     {
+      "dataId": 29009,
+      "asOfDate": "2022-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.11,
+       "fmt": "6.11"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2023-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.13,
+       "fmt": "6.13"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2024-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 6.08,
+       "fmt": "6.08"
+      }
+     },
+     {
+      "dataId": 29009,
+      "asOfDate": "2025-09-30",
+      "periodType": "12M",
+      "currencyCode": "USD",
+      "reportedValue": {
+       "raw": 7.46,
+       "fmt": "7.46"
+      }
+     }
+    ]
+   }
+  ],
+  "error": null
+ }
+}

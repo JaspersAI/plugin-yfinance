@@ -1,0 +1,78 @@
+{
+ "quoteSummary": {
+  "result": [
+   {
+    "assetProfile": {
+     "longBusinessSummary": "The trust seeks to achieve its investment objective by holding a portfolio of the common stocks that are included in the index (the “Portfolio”), with the weight of each stock in the Portfolio substantially corresponding to the weight of such stock in the index.",
+     "companyOfficers": [],
+     "executiveTeam": [],
+     "maxAge": 86400
+    },
+    "summaryProfile": {
+     "longBusinessSummary": "The trust seeks to achieve its investment objective by holding a portfolio of the common stocks that are included in the index (the “Portfolio”), with the weight of each stock in the Portfolio substantially corresponding to the weight of such stock in the index.",
+     "companyOfficers": [],
+     "executiveTeam": [],
+     "maxAge": 86400
+    },
+    "quoteType": {
+     "exchange": "PCX",
+     "quoteType": "ETF",
+     "symbol": "SPY",
+     "underlyingSymbol": "SPY",
+     "shortName": "State Street SPDR S&P 500 ETF T",
+     "longName": "State Street SPDR S&P 500 ETF Trust",
+     "firstTradeDateEpochUtc": 728317800,
+     "timeZoneFullName": "America/New_York",
+     "timeZoneShortName": "EDT",
+     "uuid": "e97de790-7e95-3762-8917-c59fcab3735e",
+     "messageBoardId": "finmb_6160262",
+     "gmtOffSetMilliseconds": -14400000,
+     "maxAge": 1
+    },
+    "price": {
+     "maxAge": 1,
+     "preMarketChangePercent": 0.0029186383,
+     "preMarketChange": 2.2106934,
+     "preMarketTime": 1789565391,
+     "preMarketPrice": 759.6507,
+     "preMarketSource": "FREE_REALTIME",
+     "postMarketChangePercent": 0.004530467,
+     "postMarketChange": 3.4161987,
+     "postMarketTime": 1789603198,
+     "postMarketPrice": 757.4662,
+     "postMarketSource": "DELAYED",
+     "regularMarketChangePercent": -0.00440992,
+     "regularMarketChange": -3.34003,
+     "regularMarketTime": 1789588800,
+     "priceHint": 2,
+     "regularMarketPrice": 754.05,
+     "regularMarketDayHigh": 761.65,
+     "regularMarketDayLow": 749.6,
+     "regularMarketVolume": 58959690,
+     "regularMarketPreviousClose": 757.39,
+     "regularMarketSource": "FREE_REALTIME",
+     "regularMarketOpen": 759.5,
+     "fulldayChangePercent": -0.00440992,
+     "fulldayChange": -3.34003,
+     "fulldayPrice": 757.4662,
+     "exchange": "PCX",
+     "exchangeName": "NYSEArca",
+     "exchangeDataDelayedBy": 0,
+     "marketState": "POSTPOST",
+     "quoteType": "ETF",
+     "symbol": "SPY",
+     "underlyingSymbol": null,
+     "shortName": "State Street SPDR S&P 500 ETF T",
+     "longName": "State Street SPDR S&P 500 ETF Trust",
+     "currency": "USD",
+     "quoteSourceName": "Delayed Quote",
+     "currencySymbol": "$",
+     "fromCurrency": null,
+     "toCurrency": null,
+     "lastMarket": null
+    }
+   }
+  ],
+  "error": null
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "chart": {
+  "result": [
+   {
+    "meta": {
+     "currency": "USD",
+     "symbol": "NVDA",
+     "exchangeName": "NMS",
+     "fullExchangeName": "NasdaqGS",
+     "instrumentType": "EQUITY",
+     "firstTradeDate": 917015400,
+     "regularMarketTime": 1789588801,
+     "hasPrePostMarketData": true,
+     "gmtoffset": -14400,
+     "timezone": "EDT",
+     "exchangeTimezoneName": "America/New_York",
+     "regularMarketPrice": 213.9,
+     "regularMarketChangePercent": 0.815,
+     "fulldayPrice": 215.45,
+     "fulldayChange": 1.73,
+     "fulldayChangePercent": 0.815,
+     "fiftyTwoWeekHigh": 236.54,
+     "fiftyTwoWeekLow": 164.27,
+     "regularMarketDayHigh": 216.76,
+     "regularMarketDayLow": 212.5,
+     "regularMarketVolume": 96113489,
+     "longName": "NVIDIA Corporation",
+     "shortName": "NVIDIA Corporation",
+     "chartPreviousClose": 22.242,
+     "priceHint": 2,
+     "dataGranularity": "3mo",
+     "range": "5y"
+    },
+    "timestamp": [
+     1772341200,
+     1780286400,
+     1788235200,
+     1789588801
+    ],
+    "events": {
+     "dividends": {
+      "1772341200": {
+       "amount": 0.01,
+       "date": 1773235800
+      },
+      "1780286400": {
+       "amount": 0.25,
+       "date": 1780579800
+      },
+      "1788235200": {
+       "amount": 0.25,
+       "date": 1789047000
+      }
+     },
+     "splits": {
+      "1717214400": {
+       "date": 1718026200,
+       "numerator": 10,
+       "denominator": 1,
+       "splitRatio": "10:1"
+      }
+     }
+    },
+    "indicators": {
+     "quote": [
+      {
+       "close": [
+        211.13999938964844,
+        220.77999877929688,
+        212.1699981689453,
+        213.89999389648438
+       ],
+       "volume": [
+        10481540200,
+        8959535100,
+        1157637500,
+        96113489
+       ],
+       "open": [
+        175.00999450683594,
+        215.72999572753906,
+        216.75,
+        214.13999938964844
+       ],
+       "high": [
+        236.5399932861328,
+        232.27999877929688,
+        234.75999450683594,
+        216.75999450683594
+       ],
+       "low": [
+        164.27000427246094,
+        189.8000030517578,
+        208.92999267578125,
+        212.5
+       ]
+      }
+     ],
+     "adjclose": [
+      {
+       "adjclose": [
+        210.6584930419922,
+        220.53323364257812,
+        212.1699981689453,
+        213.89999389648438
+       ]
+      }
+     ]
+    }
+   }
+  ],
+  "error": null
+ }
+}

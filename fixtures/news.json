@@ -1,0 +1,61 @@
+{
+ "explains": [],
+ "count": 10,
+ "quotes": [],
+ "news": [
+  {
+   "uuid": "c3b884fd-fca1-39ea-a847-4f977546401b",
+   "title": "Did AI Servers Really Quadruple Dell Stock?",
+   "publisher": "Trefis",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/did-ai-servers-really-quadruple-010109395.html",
+   "providerPublishTime": 1789606869,
+   "type": "STORY",
+   "relatedTickers": [
+    "DELL",
+    "HPE",
+    "^GSPC",
+    "CSCO",
+    "HPQ",
+    "IBM",
+    "AAPL"
+   ]
+  },
+  {
+   "uuid": "0e4b4b61-05d6-363f-904f-92d88c43735a",
+   "title": "Snap targets enterprises with Salesforce, Nvidia AI tools for augmented-reality glasses",
+   "publisher": "Reuters",
+   "link": "https://finance.yahoo.com/technology/ai/articles/snap-targets-enterprises-salesforce-nvidia-234512914.html",
+   "providerPublishTime": 1789602312,
+   "type": "STORY",
+   "relatedTickers": [
+    "CRM",
+    "AAPL",
+    "NVDA",
+    "META"
+   ]
+  },
+  {
+   "uuid": "0bbeb01d-27ca-31bf-a84e-e28460eb4341",
+   "title": "S&P 500, Nasdaq, Dow Futures Inch Higher As Investors Digest First Rate Hike Since 2023 — INTC, GOOGL, AAPL, SKHY, UAL In Focus",
+   "publisher": "Stocktwits",
+   "link": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-futures-232942409.html",
+   "providerPublishTime": 1789601382,
+   "type": "STORY",
+   "relatedTickers": [
+    "^GSPC",
+    "^DJI",
+    "SKHY",
+    "^NDX",
+    "INTC",
+    "^RUT",
+    "GOOG",
+    "AAPL"
+   ]
+  }
+ ],
+ "nav": [],
+ "lists": [],
+ "researchReports": [],
+ "screenerFieldResults": [],
+ "totalTime": 33
+}

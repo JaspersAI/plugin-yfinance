@@ -1,0 +1,44 @@
+{
+ "finance": {
+  "result": [
+   {
+    "count": 10,
+    "quotes": [
+     {
+      "symbol": "NBIS"
+     },
+     {
+      "symbol": "MEDS"
+     },
+     {
+      "symbol": "BA"
+     },
+     {
+      "symbol": "GNRC"
+     },
+     {
+      "symbol": "ON"
+     },
+     {
+      "symbol": "DLXY"
+     },
+     {
+      "symbol": "SNYR"
+     },
+     {
+      "symbol": "BE"
+     },
+     {
+      "symbol": "FLNC"
+     },
+     {
+      "symbol": "INTC"
+     }
+    ],
+    "jobTimestamp": 1789604514680,
+    "startInterval": 202609162300
+   }
+  ],
+  "error": null
+ }
+}

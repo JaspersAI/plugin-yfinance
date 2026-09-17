@@ -1,0 +1,186 @@
+{
+ "quoteSummary": {
+  "result": [
+   {
+    "recommendationTrend": {
+     "trend": [
+      {
+       "period": "0m",
+       "strongBuy": 6,
+       "buy": 19,
+       "hold": 13,
+       "sell": 3,
+       "strongSell": 3
+      },
+      {
+       "period": "-1m",
+       "strongBuy": 6,
+       "buy": 19,
+       "hold": 14,
+       "sell": 3,
+       "strongSell": 2
+      },
+      {
+       "period": "-2m",
+       "strongBuy": 6,
+       "buy": 22,
+       "hold": 14,
+       "sell": 2,
+       "strongSell": 2
+      },
+      {
+       "period": "-3m",
+       "strongBuy": 6,
+       "buy": 22,
+       "hold": 16,
+       "sell": 1,
+       "strongSell": 2
+      }
+     ],
+     "maxAge": 86400
+    },
+    "upgradeDowngradeHistory": {
+     "history": [
+      {
+       "epochGradeDate": 1789046077,
+       "firm": "TD Cowen",
+       "toGrade": "Buy",
+       "fromGrade": "Buy",
+       "action": "reit",
+       "priceTargetAction": "Maintains",
+       "currentPriceTarget": 400,
+       "priorPriceTarget": 400
+      },
+      {
+       "epochGradeDate": 1789041131,
+       "firm": "Rosenblatt",
+       "toGrade": "Neutral",
+       "fromGrade": "Neutral",
+       "action": "main",
+       "priceTargetAction": "Maintains",
+       "currentPriceTarget": 303,
+       "priorPriceTarget": 303
+      },
+      {
+       "epochGradeDate": 1789039947,
+       "firm": "B of A Securities",
+       "toGrade": "Buy",
+       "fromGrade": "Buy",
+       "action": "main",
+       "priceTargetAction": "Lowers",
+       "currentPriceTarget": 370,
+       "priorPriceTarget": 380
+      },
+      {
+       "epochGradeDate": 1788882454,
+       "firm": "HSBC",
+       "toGrade": "Buy",
+       "fromGrade": "Buy",
+       "action": "reit",
+       "priceTargetAction": "Maintains",
+       "currentPriceTarget": 366,
+       "priorPriceTarget": 366
+      },
+      {
+       "epochGradeDate": 1788865951,
+       "firm": "Needham",
+       "toGrade": "Hold",
+       "fromGrade": "Hold",
+       "action": "reit",
+       "priceTargetAction": "",
+       "currentPriceTarget": 0,
+       "priorPriceTarget": 0
+      },
+      {
+       "epochGradeDate": 1788370475,
+       "firm": "Morgan Stanley",
+       "toGrade": "Overweight",
+       "fromGrade": "Overweight",
+       "action": "reit",
+       "priceTargetAction": "Maintains",
+       "currentPriceTarget": 360,
+       "priorPriceTarget": 360
+      }
+     ],
+     "maxAge": 86400
+    },
+    "price": {
+     "maxAge": 1,
+     "preMarketChangePercent": 0.0032293336,
+     "preMarketChange": 1.0700073,
+     "preMarketTime": 1789565399,
+     "preMarketPrice": 332.41,
+     "preMarketSource": "FREE_REALTIME",
+     "postMarketChangePercent": 0.0030684667,
+     "postMarketChange": 1.019989,
+     "postMarketTime": 1789603190,
+     "postMarketPrice": 333.43,
+     "postMarketSource": "FREE_REALTIME",
+     "regularMarketChangePercent": 0.0032293298,
+     "regularMarketChange": 1.07001,
+     "regularMarketTime": 1789588801,
+     "priceHint": 2,
+     "regularMarketPrice": 332.41,
+     "regularMarketDayHigh": 335.48,
+     "regularMarketDayLow": 330.7,
+     "regularMarketVolume": 35923957,
+     "regularMarketPreviousClose": 331.34,
+     "regularMarketSource": "FREE_REALTIME",
+     "regularMarketOpen": 332.42,
+     "fulldayChangePercent": 0.0032293298,
+     "fulldayChange": 1.07001,
+     "fulldayPrice": 333.43,
+     "exchange": "NMS",
+     "exchangeName": "NasdaqGS",
+     "exchangeDataDelayedBy": 0,
+     "marketState": "POSTPOST",
+     "quoteType": "EQUITY",
+     "symbol": "AAPL",
+     "underlyingSymbol": null,
+     "shortName": "Apple Inc.",
+     "longName": "Apple Inc.",
+     "currency": "USD",
+     "quoteSourceName": "Nasdaq Real Time Price",
+     "currencySymbol": "$",
+     "fromCurrency": null,
+     "toCurrency": null,
+     "lastMarket": null,
+     "marketCap": 4851251544064
+    },
+    "financialData": {
+     "maxAge": 86400,
+     "currentPrice": 332.41,
+     "targetHighPrice": 405,
+     "targetLowPrice": 215,
+     "targetMeanPrice": 327.1964,
+     "targetMedianPrice": 335,
+     "recommendationMean": 2.20455,
+     "recommendationKey": "buy",
+     "numberOfAnalystOpinions": 39,
+     "totalCash": 62399000576,
+     "totalCashPerShare": 4.276,
+     "ebitda": 167959003136,
+     "totalDebt": 84343996416,
+     "quickRatio": 0.812,
+     "currentRatio": 1.003,
+     "totalRevenue": 466822987776,
+     "debtToEquity": 78.445,
+     "revenuePerShare": 31.707,
+     "returnOnAssets": 0.27082002,
+     "returnOnEquity": 1.4875101,
+     "grossProfits": 227123003392,
+     "freeCashflow": 107721875456,
+     "operatingCashflow": 146723995648,
+     "earningsGrowth": 0.287,
+     "revenueGrowth": 0.164,
+     "grossMargins": 0.48653,
+     "ebitdaMargins": 0.35979,
+     "operatingMargins": 0.32623002,
+     "profitMargins": 0.27618998,
+     "financialCurrency": "USD"
+    }
+   }
+  ],
+  "error": null
+ }
+}

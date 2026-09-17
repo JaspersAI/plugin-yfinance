@@ -1,0 +1,601 @@
+/* The Yahoo Finance views' CSS. A plugin view is an iframe of its own, so there is no Tailwind and no
+   theme here: plain classes, the house style by hand. Square everything, one grey line (#e5e5e5),
+   muted text at #737373, 13px, figures of one width, and no accent colour but the sign of a number. */
+
+.yf-root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  color: #171717;
+  font: 13px/1.45 system-ui, -apple-system, sans-serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  border-radius: 0;
+}
+
+.yf-bar {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 6px 8px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.yf-credit {
+  margin-left: auto;
+  border: 0;
+  background: none;
+  color: #737373;
+  font-size: 12px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.yf-credit:hover {
+  color: #171717;
+}
+
+.yf-input,
+.yf-select {
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  color: #171717;
+  padding: 2px 6px;
+  outline: none;
+}
+
+.yf-input:focus,
+.yf-select:focus {
+  border-color: #171717;
+}
+
+.yf-symbol {
+  width: 96px;
+  text-transform: uppercase;
+}
+
+.yf-symbol::placeholder {
+  text-transform: none;
+}
+
+.yf-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.yf-body {
+  flex: 1 1 auto;
+  overflow: auto;
+  padding: 0 8px 8px;
+}
+
+.yf-muted {
+  color: #737373;
+}
+
+.yf-strong {
+  font-weight: 600;
+}
+
+.yf-num {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.yf-up {
+  color: #15803d;
+}
+
+.yf-down,
+.yf-negative {
+  color: #b91c1c;
+}
+
+.yf-error {
+  color: #dc2626;
+  white-space: pre-wrap;
+  margin: 4px 0;
+}
+
+.yf-empty {
+  color: #737373;
+  padding: 12px 0;
+  margin: 0;
+}
+
+.yf-line {
+  margin: 2px 0 6px;
+}
+
+.yf-link {
+  border: 0;
+  background: none;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+}
+
+.yf-link:hover {
+  text-decoration: underline;
+}
+
+/* Sections. */
+
+.yf-section {
+  padding-top: 10px;
+}
+
+.yf-section + .yf-section {
+  margin-top: 4px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.yf-h {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.yf-aside {
+  font-weight: 400;
+}
+
+/* Tabs and toggles. */
+
+.yf-tabs,
+.yf-toggle {
+  display: inline-flex;
+}
+
+.yf-tab {
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  color: #404040;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.yf-tab + .yf-tab {
+  border-left: 0;
+}
+
+.yf-tab:hover:not(:disabled) {
+  background: #f5f5f5;
+}
+
+.yf-tab:disabled {
+  color: #d4d4d4;
+  cursor: default;
+}
+
+.yf-tab-on,
+.yf-tab-on:hover:not(:disabled) {
+  background: #171717;
+  border-color: #171717;
+  color: #fff;
+}
+
+/* Tables. */
+
+.yf-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 2px 0 6px;
+}
+
+.yf-table th,
+.yf-table td {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 3px 6px;
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.yf-table th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  font-weight: 500;
+  color: #737373;
+}
+
+.yf-table th.yf-num,
+.yf-table td.yf-num {
+  text-align: right;
+}
+
+.yf-fit {
+  width: auto;
+  min-width: min(100%, 560px);
+}
+
+.yf-table tbody tr:hover td {
+  background: #fafafa;
+}
+
+.yf-name-cell {
+  max-width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.yf-x {
+  border: 0;
+  background: none;
+  color: #a3a3a3;
+  padding: 0 4px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.yf-x:hover {
+  color: #171717;
+}
+
+/* Company overview. */
+
+.yf-head {
+  padding-top: 10px;
+}
+
+.yf-title {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+}
+
+.yf-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.yf-price-line {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin: 4px 0 2px;
+}
+
+.yf-price {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.yf-ranges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 4px 24px;
+  margin: 8px 0 2px;
+}
+
+.yf-range {
+  min-width: 0;
+}
+
+.yf-range-label {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.yf-track {
+  position: relative;
+  height: 4px;
+  background: #e5e5e5;
+  margin: 5px 0;
+}
+
+.yf-mark {
+  position: absolute;
+  top: -4px;
+  width: 2px;
+  height: 12px;
+  margin-left: -1px;
+  background: #171717;
+}
+
+.yf-mark-hollow {
+  top: -5px;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  margin-top: 1px;
+  background: #fff;
+  border: 2px solid #737373;
+  box-sizing: border-box;
+}
+
+.yf-range-ends {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.yf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  margin: 0;
+  border-top: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+}
+
+.yf-cell {
+  padding: 4px 8px;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  min-width: 0;
+}
+
+.yf-cell dt {
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.yf-cell dd {
+  margin: 0;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.yf-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 12px;
+  margin: 2px 0 8px;
+  font-size: 12px;
+}
+
+.yf-key {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  vertical-align: -1px;
+}
+
+.yf-key-solid {
+  width: 2px;
+  background: #171717;
+}
+
+.yf-key-hollow {
+  border: 2px solid #737373;
+  box-sizing: border-box;
+}
+
+.yf-mix {
+  display: flex;
+  height: 10px;
+  margin: 4px 0 2px;
+  background: #f5f5f5;
+}
+
+.yf-mix-strongBuy {
+  background: #15803d;
+}
+
+.yf-mix-buy {
+  background: #86c79e;
+}
+
+.yf-mix-hold {
+  background: #d4d4d4;
+}
+
+.yf-mix-sell {
+  background: #e8a3a3;
+}
+
+.yf-mix-strongSell {
+  background: #b91c1c;
+}
+
+.yf-summary {
+  margin: 6px 0 0;
+  max-width: 80ch;
+  color: #262626;
+}
+
+.yf-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.yf-more {
+  color: #737373;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+/* A fund's holdings beside its sector weights. */
+
+.yf-two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4px 24px;
+  margin-top: 8px;
+}
+
+.yf-bars-title {
+  padding: 3px 0;
+  border-bottom: 1px solid #e5e5e5;
+  font-weight: 500;
+}
+
+.yf-bar-row {
+  display: grid;
+  grid-template-columns: minmax(120px, 40%) 1fr 56px;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.yf-bar-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.yf-bar-track {
+  height: 8px;
+  background: #f5f5f5;
+}
+
+.yf-bar-fill {
+  display: block;
+  height: 100%;
+  background: #737373;
+}
+
+.yf-bar-row .yf-num {
+  text-align: right;
+}
+
+/* Markets. */
+
+.yf-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  border-top: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+}
+
+.yf-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  min-width: 0;
+  padding: 5px 8px;
+  border: 0;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.yf-tile:hover {
+  background: #fafafa;
+}
+
+.yf-tile-up {
+  box-shadow: inset 0 2px 0 #15803d;
+}
+
+.yf-tile-down {
+  box-shadow: inset 0 2px 0 #b91c1c;
+}
+
+.yf-tile-name {
+  max-width: 100%;
+  font-size: 12px;
+  color: #737373;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.yf-tile-price {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.yf-tile-move {
+  font-size: 12px;
+}
+
+/* Financials. */
+
+.yf-statement td:first-child {
+  white-space: normal;
+  min-width: 180px;
+}
+
+.yf-statement tr.yf-strong td {
+  font-weight: 600;
+}
+
+/* Options. */
+
+.yf-chain th.yf-side {
+  text-align: center;
+  color: #171717;
+  font-weight: 600;
+}
+
+.yf-chain .yf-strike,
+.yf-chain .yf-strike-head {
+  text-align: center !important;
+  font-weight: 600;
+  background: #fafafa;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.yf-chain td.yf-itm {
+  background: #f5f5f5;
+}
+
+.yf-chain tbody tr:hover td.yf-itm {
+  background: #eeeeee;
+}
+
+.yf-table tbody tr.yf-price-rule td,
+.yf-table tbody tr.yf-price-rule:hover td {
+  position: relative;
+  height: 18px;
+  padding: 0;
+  border-bottom: 0;
+  background: none;
+}
+
+.yf-price-rule td::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  border-top: 2px solid #171717;
+}
+
+.yf-price-rule span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 16px;
+  background: #171717;
+  color: #fff;
+  font-size: 11px;
+  padding: 0 6px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
