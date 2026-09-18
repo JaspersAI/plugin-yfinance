@@ -1,6 +1,6 @@
 {
   "name": "yfinance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yahoo Finance for Jaspers Terminal: quotes, price history, fundamentals, analysts, holders, options, news, and market movers, with no key.",
   "license": "MIT",
   "private": true,
