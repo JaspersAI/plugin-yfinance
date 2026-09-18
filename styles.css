@@ -1,15 +1,17 @@
-/* The Yahoo Finance views' CSS. A plugin view is an iframe of its own, so there is no Tailwind and no
-   theme here: plain classes, the house style by hand. Square everything, one grey line (#e5e5e5),
-   muted text at #737373, 13px, figures of one width, and no accent colour but the sign of a number. */
+/* The Yahoo Finance views' CSS. A plugin view is an iframe of its own, so there is no Tailwind here:
+   plain classes, the house style by hand. Colours are the app's theme variables, so the views follow
+   its light and dark, each with its light value as the fallback for an app from before the theme;
+   colours of the plugin's own take their dark values at the end. Square everything, one grey line,
+   muted secondary text, 13px, figures of one width, and no accent colour but the sign of a number. */
 
 .yf-root {
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
-  background: #fff;
-  color: #171717;
-  font: 13px/1.45 system-ui, -apple-system, sans-serif;
+  background: var(--jaspers-background, #fff);
+  color: var(--jaspers-foreground, #171717);
+  font: 13px/1.45 var(--jaspers-font-sans, system-ui, -apple-system, sans-serif);
 }
 
 button,
@@ -26,35 +28,35 @@ select {
   flex-wrap: wrap;
   gap: 8px;
   padding: 6px 8px;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--jaspers-border, #e5e5e5);
 }
 
 .yf-credit {
   margin-left: auto;
   border: 0;
   background: none;
-  color: #737373;
+  color: var(--jaspers-muted-foreground, #737373);
   font-size: 12px;
   padding: 0;
   cursor: pointer;
 }
 
 .yf-credit:hover {
-  color: #171717;
+  color: var(--jaspers-foreground, #171717);
 }
 
 .yf-input,
 .yf-select {
-  border: 1px solid #e5e5e5;
-  background: #fff;
-  color: #171717;
+  border: 1px solid var(--jaspers-border, #e5e5e5);
+  background: var(--jaspers-background, #fff);
+  color: var(--jaspers-foreground, #171717);
   padding: 2px 6px;
   outline: none;
 }
 
 .yf-input:focus,
 .yf-select:focus {
-  border-color: #171717;
+  border-color: var(--jaspers-foreground, #171717);
 }
 
 .yf-symbol {
@@ -79,7 +81,7 @@ select {
 }
 
 .yf-muted {
-  color: #737373;
+  color: var(--jaspers-muted-foreground, #737373);
 }
 
 .yf-strong {
@@ -92,22 +94,22 @@ select {
 }
 
 .yf-up {
-  color: #15803d;
+  color: var(--jaspers-positive, #15803d);
 }
 
 .yf-down,
 .yf-negative {
-  color: #b91c1c;
+  color: var(--jaspers-negative, #b91c1c);
 }
 
 .yf-error {
-  color: #dc2626;
+  color: var(--jaspers-destructive, #dc2626);
   white-space: pre-wrap;
   margin: 4px 0;
 }
 
 .yf-empty {
-  color: #737373;
+  color: var(--jaspers-muted-foreground, #737373);
   padding: 12px 0;
   margin: 0;
 }
@@ -137,7 +139,7 @@ select {
 
 .yf-section + .yf-section {
   margin-top: 4px;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid var(--jaspers-border, #e5e5e5);
 }
 
 .yf-h {
@@ -162,9 +164,9 @@ select {
 }
 
 .yf-tab {
-  border: 1px solid #e5e5e5;
-  background: #fff;
-  color: #404040;
+  border: 1px solid var(--jaspers-border, #e5e5e5);
+  background: var(--jaspers-background, #fff);
+  color: var(--jaspers-foreground, #404040);
   padding: 2px 8px;
   cursor: pointer;
 }
@@ -174,7 +176,7 @@ select {
 }
 
 .yf-tab:hover:not(:disabled) {
-  background: #f5f5f5;
+  background: var(--jaspers-muted, #f5f5f5);
 }
 
 .yf-tab:disabled {
@@ -184,9 +186,9 @@ select {
 
 .yf-tab-on,
 .yf-tab-on:hover:not(:disabled) {
-  background: #171717;
-  border-color: #171717;
-  color: #fff;
+  background: var(--jaspers-primary, #171717);
+  border-color: var(--jaspers-primary, #171717);
+  color: var(--jaspers-primary-foreground, #fff);
 }
 
 /* Tables. */
@@ -199,7 +201,7 @@ select {
 
 .yf-table th,
 .yf-table td {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--jaspers-border, #e5e5e5);
   padding: 3px 6px;
   text-align: left;
   white-space: nowrap;
@@ -210,9 +212,9 @@ select {
   position: sticky;
   top: 0;
   z-index: 1;
-  background: #fff;
+  background: var(--jaspers-background, #fff);
   font-weight: 500;
-  color: #737373;
+  color: var(--jaspers-muted-foreground, #737373);
 }
 
 .yf-table th.yf-num,
@@ -226,7 +228,7 @@ select {
 }
 
 .yf-table tbody tr:hover td {
-  background: #fafafa;
+  background: var(--jaspers-muted, #fafafa);
 }
 
 .yf-name-cell {
@@ -246,7 +248,7 @@ select {
 }
 
 .yf-x:hover {
-  color: #171717;
+  color: var(--jaspers-foreground, #171717);
 }
 
 /* Company overview. */
@@ -300,7 +302,7 @@ select {
 .yf-track {
   position: relative;
   height: 4px;
-  background: #e5e5e5;
+  background: var(--jaspers-border, #e5e5e5);
   margin: 5px 0;
 }
 
@@ -310,7 +312,7 @@ select {
   width: 2px;
   height: 12px;
   margin-left: -1px;
-  background: #171717;
+  background: var(--jaspers-foreground, #171717);
 }
 
 .yf-mark-hollow {
@@ -319,8 +321,8 @@ select {
   height: 8px;
   margin-left: -4px;
   margin-top: 1px;
-  background: #fff;
-  border: 2px solid #737373;
+  background: var(--jaspers-background, #fff);
+  border: 2px solid var(--jaspers-muted-foreground, #737373);
   box-sizing: border-box;
 }
 
@@ -334,14 +336,14 @@ select {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
   margin: 0;
-  border-top: 1px solid #e5e5e5;
-  border-left: 1px solid #e5e5e5;
+  border-top: 1px solid var(--jaspers-border, #e5e5e5);
+  border-left: 1px solid var(--jaspers-border, #e5e5e5);
 }
 
 .yf-cell {
   padding: 4px 8px;
-  border-right: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  border-right: 1px solid var(--jaspers-border, #e5e5e5);
+  border-bottom: 1px solid var(--jaspers-border, #e5e5e5);
   min-width: 0;
 }
 
@@ -378,11 +380,11 @@ select {
 
 .yf-key-solid {
   width: 2px;
-  background: #171717;
+  background: var(--jaspers-foreground, #171717);
 }
 
 .yf-key-hollow {
-  border: 2px solid #737373;
+  border: 2px solid var(--jaspers-muted-foreground, #737373);
   box-sizing: border-box;
 }
 
@@ -390,11 +392,11 @@ select {
   display: flex;
   height: 10px;
   margin: 4px 0 2px;
-  background: #f5f5f5;
+  background: var(--jaspers-muted, #f5f5f5);
 }
 
 .yf-mix-strongBuy {
-  background: #15803d;
+  background: var(--jaspers-positive, #15803d);
 }
 
 .yf-mix-buy {
@@ -410,13 +412,13 @@ select {
 }
 
 .yf-mix-strongSell {
-  background: #b91c1c;
+  background: var(--jaspers-negative, #b91c1c);
 }
 
 .yf-summary {
   margin: 6px 0 0;
   max-width: 80ch;
-  color: #262626;
+  color: var(--jaspers-foreground, #262626);
 }
 
 .yf-clamp {
@@ -427,7 +429,7 @@ select {
 }
 
 .yf-more {
-  color: #737373;
+  color: var(--jaspers-muted-foreground, #737373);
   font-size: 12px;
   margin-top: 2px;
 }
@@ -443,7 +445,7 @@ select {
 
 .yf-bars-title {
   padding: 3px 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--jaspers-border, #e5e5e5);
   font-weight: 500;
 }
 
@@ -453,7 +455,7 @@ select {
   align-items: center;
   gap: 8px;
   padding: 3px 0;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid var(--jaspers-border, #e5e5e5);
 }
 
 .yf-bar-label {
@@ -464,13 +466,13 @@ select {
 
 .yf-bar-track {
   height: 8px;
-  background: #f5f5f5;
+  background: var(--jaspers-muted, #f5f5f5);
 }
 
 .yf-bar-fill {
   display: block;
   height: 100%;
-  background: #737373;
+  background: var(--jaspers-muted-foreground, #737373);
 }
 
 .yf-bar-row .yf-num {
@@ -482,8 +484,8 @@ select {
 .yf-tiles {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
-  border-top: 1px solid #e5e5e5;
-  border-left: 1px solid #e5e5e5;
+  border-top: 1px solid var(--jaspers-border, #e5e5e5);
+  border-left: 1px solid var(--jaspers-border, #e5e5e5);
 }
 
 .yf-tile {
@@ -494,30 +496,30 @@ select {
   min-width: 0;
   padding: 5px 8px;
   border: 0;
-  border-right: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
-  background: #fff;
+  border-right: 1px solid var(--jaspers-border, #e5e5e5);
+  border-bottom: 1px solid var(--jaspers-border, #e5e5e5);
+  background: var(--jaspers-background, #fff);
   color: inherit;
   text-align: left;
   cursor: pointer;
 }
 
 .yf-tile:hover {
-  background: #fafafa;
+  background: var(--jaspers-muted, #fafafa);
 }
 
 .yf-tile-up {
-  box-shadow: inset 0 2px 0 #15803d;
+  box-shadow: inset 0 2px 0 var(--jaspers-positive, #15803d);
 }
 
 .yf-tile-down {
-  box-shadow: inset 0 2px 0 #b91c1c;
+  box-shadow: inset 0 2px 0 var(--jaspers-negative, #b91c1c);
 }
 
 .yf-tile-name {
   max-width: 100%;
   font-size: 12px;
-  color: #737373;
+  color: var(--jaspers-muted-foreground, #737373);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -547,7 +549,7 @@ select {
 
 .yf-chain th.yf-side {
   text-align: center;
-  color: #171717;
+  color: var(--jaspers-foreground, #171717);
   font-weight: 600;
 }
 
@@ -555,15 +557,16 @@ select {
 .yf-chain .yf-strike-head {
   text-align: center !important;
   font-weight: 600;
-  background: #fafafa;
-  border-left: 1px solid #e5e5e5;
-  border-right: 1px solid #e5e5e5;
+  background: var(--jaspers-muted, #fafafa);
+  border-left: 1px solid var(--jaspers-border, #e5e5e5);
+  border-right: 1px solid var(--jaspers-border, #e5e5e5);
 }
 
 .yf-chain td.yf-itm {
-  background: #f5f5f5;
+  background: var(--jaspers-muted, #f5f5f5);
 }
 
+/* Not the muted fill: a hovered row already turns muted, so a shaded cell goes a step past it. */
 .yf-chain tbody tr:hover td.yf-itm {
   background: #eeeeee;
 }
@@ -583,7 +586,7 @@ select {
   left: 0;
   right: 0;
   top: 50%;
-  border-top: 2px solid #171717;
+  border-top: 2px solid var(--jaspers-primary, #171717);
 }
 
 .yf-price-rule span {
@@ -592,10 +595,40 @@ select {
   top: 50%;
   transform: translate(-50%, -50%);
   line-height: 16px;
-  background: #171717;
-  color: #fff;
+  background: var(--jaspers-primary, #171717);
+  color: var(--jaspers-primary-foreground, #fff);
   font-size: 11px;
   padding: 0 6px;
   white-space: nowrap;
   font-variant-numeric: tabular-nums;
+}
+
+/* The plugin's own colours on the theme's dark background (#0a0a0a), each reading as its light value
+   does on white. The rating scale's middle steps are its dark ends dimmed toward the background, level
+   with each other, and hold a grey below them, so the ends stay the most intense; hold and a disabled
+   tab share a grey, as they do in light. */
+@media (prefers-color-scheme: dark) {
+  .yf-tab:disabled {
+    color: #404040;
+  }
+
+  .yf-x {
+    color: #525252;
+  }
+
+  .yf-mix-buy {
+    background: #2a7445;
+  }
+
+  .yf-mix-hold {
+    background: #404040;
+  }
+
+  .yf-mix-sell {
+    background: #a54d4d;
+  }
+
+  .yf-chain tbody tr:hover td.yf-itm {
+    background: #242424;
+  }
 }

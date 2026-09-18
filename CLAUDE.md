@@ -12,7 +12,7 @@ Node 24.
 - `npm run smoke` — every tool once against the real Yahoo Finance, then the server over stdio; a line per call, exit 1 on any failure. Run it on the app's own Node for what the app sees: `ELECTRON_RUN_AS_NODE=1 <terminal>/node_modules/.bin/electron scripts/smoke.ts`
 - `npm run package` — `build/yfinance-<version>.zip`, what a release attaches (about 5 MB: `@modelcontextprotocol/sdk` and `zod`); `fixtures/`, `scripts/`, and the tests stay out. The Release workflow runs it on a `v*` tag
 
-Style: square, no rounded corners; `#e5e5e5` borders, `#737373` muted, green `#15803d` and red `#b91c1c` only for a number's sign.
+Style: square, no rounded corners. Colours are the app's theme variables with the light value as fallback (`var(--jaspers-border, #e5e5e5)`, `var(--jaspers-muted-foreground, #737373)`), so a view follows the app's light and dark; a colour of the plugin's own gets its dark value under `@media (prefers-color-scheme: dark)`. `--jaspers-positive` (green) and `--jaspers-negative` (red) only for a number's sign and the two ends of the analyst rating scale.
 
 ## The plugin
 
